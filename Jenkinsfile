@@ -36,4 +36,9 @@ properties([
 ])
 
   println "operation = ${operation}\n" +
-      "deployment_name = ${deployment_name}"
+      "deployment_name = ${deployment_name}" +
+      "crmAdminUserPasswd = ${crmAdminUserPasswd}" +
+      "crmServiceUserPasswd = ${crmServiceUserPasswd}" +
+      "sqlServiceUserPasswd = ${sqlServiceUserPasswd}" +
+      "domain_join_user_password = ${domain_join_user_password}" +
+      "cert_password = ${cert_password}"
