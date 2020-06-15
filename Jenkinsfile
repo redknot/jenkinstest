@@ -12,8 +12,7 @@ properties([
         ],
         [ 
           $class: 'hudson.model.PasswordParameterDefinition',
-          name: 'crmAdminUserPasswd',
-          defaultValueAsSecret: 'ecrmD3v!'
+          name: 'crmAdminUserPasswd'
         ],
         [ 
           $class: 'hudson.model.PasswordParameterDefinition',
